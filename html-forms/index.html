@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML Forms</title>
+</head>
+<body>
+  <form action="http://www.example.com/login.php">
+    <p>Email:<br>
+      <input type="text" name="username" size="15" maxlength="30" />
+    </p>
+  </form>
+  <form action="http://www.example.com/profile.php">
+    <p>Why is coding cool?</p>
+    <select name="devices">
+      <option value="Select an option">Select an option</option>
+      <option value="Because it's interesting">Because it's interesting</option>
+      <option value="Because it's fun">Because it's fun</option>
+      <option value="Because it's powerful">Because it's powerful</option>
+    </select>
+  </form>
+  <form action="http://www.example.com/profile.php">
+    <p>Favorite Language (choose one):
+      <br />
+      <input type="radio" name="genre" value="rock" checked="checked" /> HTML
+      <input type="radio" name="genre" value="pop" />
+      CSS
+      <input type="radio" name="genre" value="jazz" />
+      JavaScript
+    </p>
+  </form>
+  <form action="http://www.example.com/profile.php">
+    <p>Would you like to sign up for more information?
+      <br />
+      <input type="checkbox" name="service" value="itunes" checked="checked" /> Sign me Up!
+    </p>
+  </form>
+  <form action="http://www.example.com/comments.php">
+    <p>Comments</p>
+    <textarea name="comments" cols="20" rows="4">Enter your comments</textarea>
+  </form>
+  <input type="submit" name="submit" value="Submit" />
+
+</body>
+</html>
