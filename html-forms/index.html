@@ -4,12 +4,10 @@
   <title>HTML Forms</title>
 </head>
 <body>
-  <form action="http://www.example.com/login.php">
+  <form>
     <label>Email:</label><br>
       <input type="text" name="username" size="15" maxlength="30" />
-
-  </form>
-  <form action="http://www.example.com/profile.php">
+<br>
     <label> Why is coding cool?</label><br>
     <select name="devices">
       <option value="Select an option">Select an option</option>
@@ -17,8 +15,8 @@
       <option value="Because it's fun">Because it's fun</option>
       <option value="Because it's powerful">Because it's powerful</option>
     </select>
-  </form>
-  <form action="http://www.example.com/profile.php">
+
+<br>
     <label>
       Favorite Language (choose one):
     </label>
@@ -28,23 +26,21 @@
       CSS
       <input type="radio" name="genre" value="jazz" />
       JavaScript
-
-  </form>
-  <form action="http://www.example.com/profile.php">
-    <label>
+<br>
+      <label>
       Would you like to sign up for more information?
     </label>
       <br>
       <input type="checkbox" name="service" value="itunes" checked="checked" /> Sign me Up!
 
-  </form>
-  <form action="http://www.example.com/comments.php">
     <label>
       Comments
     </label><br>
     <textarea name="comments" cols="20" rows="4">Enter your comments</textarea>
+    <br>
+    <input type="submit" name="submit" value="Submit" />
   </form>
-  <input type="submit" name="submit" value="Submit" />
+
 
 </body>
 </html>
