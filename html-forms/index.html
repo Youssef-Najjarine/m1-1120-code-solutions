@@ -5,12 +5,12 @@
 </head>
 <body>
   <form action="http://www.example.com/login.php">
-    <p>Email:<br>
+    <label>Email:</label><br>
       <input type="text" name="username" size="15" maxlength="30" />
-    </p>
+
   </form>
   <form action="http://www.example.com/profile.php">
-    <p>Why is coding cool?</p>
+    <label> Why is coding cool?</label><br>
     <select name="devices">
       <option value="Select an option">Select an option</option>
       <option value="Because it's interesting">Because it's interesting</option>
@@ -19,23 +19,29 @@
     </select>
   </form>
   <form action="http://www.example.com/profile.php">
-    <p>Favorite Language (choose one):
-      <br />
+    <label>
+      Favorite Language (choose one):
+    </label>
+      <br>
       <input type="radio" name="genre" value="rock" checked="checked" /> HTML
       <input type="radio" name="genre" value="pop" />
       CSS
       <input type="radio" name="genre" value="jazz" />
       JavaScript
-    </p>
+
   </form>
   <form action="http://www.example.com/profile.php">
-    <p>Would you like to sign up for more information?
-      <br />
+    <label>
+      Would you like to sign up for more information?
+    </label>
+      <br>
       <input type="checkbox" name="service" value="itunes" checked="checked" /> Sign me Up!
-    </p>
+
   </form>
   <form action="http://www.example.com/comments.php">
-    <p>Comments</p>
+    <label>
+      Comments
+    </label><br>
     <textarea name="comments" cols="20" rows="4">Enter your comments</textarea>
   </form>
   <input type="submit" name="submit" value="Submit" />
