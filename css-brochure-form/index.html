@@ -10,34 +10,34 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h2>LEARN MORE</h2>
+  <div class="form-container">
+    <h2 class="form-heading">Learn More</h2>
+    <form>
+      <fieldset>
+        <div class="form-group">
+          <label for="company-email"> Company Email</label>
+          <input id="Company-email" class="form-control" required type="email" name="email" placeholder="sally@company.co">
+          </div>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="company-name" class="form-control" required type="email" name="email" placeholder="Sally Smith">
+          </div>
+          <div class="form-group">
+            <label for="location">Where are you hiring?</label>
+            <input id="location" class="form-control" required type="text" name="location" placeholder="City, Country">
+          </div>
+          <div class="form-group">
+            <label for="head-count">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label>
+            <select id="head-count" class="form-control" name="headCount">
+              <option value="1-2">1-2 Engineers</option>
+          </select>
+          </div>
+          </fieldset>
+          <div class="form-actions">
+            <button type="submit">Submit</button>
+          </div>
 
-<label> COMPANY EMAIL</label>
-<br>
-<input type="text" class="ip2" />
-<br>
-<br>
-<label>NAME</label>
-<br>
-<input type="text" class="ip2" />
-<br>
-<br>
-<label>WHERE ARE YOU HIRING?</label>
-<br>
-<input type="text" class="ip2" />
-<br>
-<br>
-  <label for="pet-select">HOW MANY ENGINEERS ARE YOU HIRING IN THE NEXT 6 MONTHS?</label>
-<br>
-  <select id="Engineers">
-    <option value="">1-2 Engineers</option>
-    <option value="">3 Engineers</option>
-    <option value="">5 Engineers</option>
-    <option value="">10 Engineers</option>
-  </select>
-  <br>
-<button class="favorite styled" type="button">
-  Submit
-</button>
+          </form>
+          </div>
 </body>
 </html>
