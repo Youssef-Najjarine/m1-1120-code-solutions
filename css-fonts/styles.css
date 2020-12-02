@@ -1,0 +1,11 @@
+body {
+  font-family: 'Nerko One', cursive;
+src: url"(https://fonts.googleapis.com/css2?family=Nerko+One&display=swap)";
+line-height:  1.4em;
+}
+
+head {
+  font-family: 'Sansita Swashed', cursive;
+src: url"(https://fonts.googleapis.com/css2?family=Nerko+One&family=Sansita+Swashed:wght@300&display=swap)";
+line-height:  1.7em;
+}
