@@ -1,0 +1,30 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  background-color: black;
+  transition: all 0.5s;
+}
+
+button {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: rgb(46, 43, 43);
+  box-shadow: 0 0 20px grey;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+body.light {
+  background-color: rgba(220, 231, 159, 0.918);
+}
+
+body.light button {
+  background-color: rgb(247, 247, 0);
+  box-shadow: 0 0 200px yellow;
+}
