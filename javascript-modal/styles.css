@@ -1,0 +1,42 @@
+button {
+  color: white;
+  font-size: 23px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: blue;
+  box-shadow: 0 0 20px grey;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.blackBox {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.blackBox.active {
+  display: flex;
+}
+
+.whiteBox {
+  background-color: white;
+  padding: 60px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.whiteBox button {
+  background-color: red;
+  width: 100px;
+  height: 50px;
+}
