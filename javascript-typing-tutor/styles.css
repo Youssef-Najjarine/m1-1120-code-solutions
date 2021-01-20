@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+span.current {
+  border-bottom: 2px solid;
+}
+
+span.good {
+  color: lightgreen;
+}
+
+span.bad {
+  color: crimson;
+}
